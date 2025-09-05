@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    string name;
+    string course;
+    string birthday;
+    string motto;
+    
+    cout<< "Enter your full name: ";
+    getline(cin, name);
+    
+    cout<< "Enter your course, year and section: ";
+    getline(cin, course);
+    
+    cout<< "Enter your birthday: ";
+    getline(cin, birthday);
+    
+    cout<< "Enter your motto: ";
+    getline(cin, motto);
+    
+    cout<< endl;
+    cout<< "Hi!! I'm "<< name << " of "<< course << ". Welcome to Data Structures and Algorithm!" << endl;
+    cout<< "My Birthday is on "<< birthday << ", and my motto in life is "<< motto << "."<< endl;
+    
+    
+    return 0;
+}
